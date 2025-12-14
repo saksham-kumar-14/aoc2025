@@ -7,6 +7,8 @@ pub fn build(b: *std.Build) void {
     const days = [_][]const u8{
         "day01",
         "day01_2",
+        "day02",
+        "day02_2",
     };
     
     for (days) |day| {
